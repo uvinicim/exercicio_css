@@ -1,0 +1,17 @@
+
+h1{
+    font-family: sans-serif;
+}
+
+.Tecnologia{
+    color: blueviolet;
+}
+
+.Entretenimento{
+    color: rgb(124, 192, 34);
+}
+
+.container li{
+    display: block;
+}
+
