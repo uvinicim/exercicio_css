@@ -1,17 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto
+}
 
-h1{
-    font-family: sans-serif;
+body{
+    background-color: azure;
+}
+
+header h1, h2, h3{
+    font-family: 'Oswald', sans-serif;
+    margin: 8px 0;
+}
+img{
+    width: 500px;
+    height: 250px;
+    margin-top: 16px ;
+}
+
+header h1{
+    background-color: rgb(196, 247, 114);
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .Tecnologia{
-    color: blueviolet;
+    color: blue;
 }
 
 .Entretenimento{
-    color: rgb(124, 192, 34);
+    color:chocolate
+}
+
+time{
+    color: gray;
 }
 
 .container li{
     display: block;
 }
 
+.container a{
+    text-decoration: none;
+}

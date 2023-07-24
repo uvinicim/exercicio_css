@@ -3,70 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício CSS</title>
+    <title>Meu portal de notícias</title>
     <link rel="stylesheet" href="./css.css">
 
-// Fiz o site do "0", obviamente irá faltar alguns elementos.
-// O propósito da atividade segue ativo.
-// Fiz mais 2 duas sessões e mudei a cor como pedido na atividade.
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>MEU PORTAL DE NOTÍCIAS</h1>    
-    <div class="container">        
-    <ul>
-        <a href="#"Esportes><li>Esportes</li></a>
-        <a href="#"Economia><li>Economia</li></a>
-        <a href="#"Tecnologia><li>Tecnologia</li></a>
-        <a href="#"Entretenimento><li>Entretenimento</li></a>
-    </ul>
+    <header>
+        <h1>Meu portal de notícias</h1>
+    </header>
+    <div class="container">
+        <ul>
+            <li><a href="#">Esportes</a></li>
+            <li><a href="#">Economia</a></li>
+            <li><a href="#">Tecnologia</a></li>
+            <li><a href="#">Entretenimento</a></li>
+        </ul>
     </div>
-    <section id="Esportes">
-        <div class="Esportes">
-        <h2>Basquete: "James Harden não tem mercado para troca"</h2>
-        <img src="./imagens/james harden.jfif" width="500" height="300" alt="James Harden"></div>
-        <time>23/07/2023 ás 9:11</time>
-        <p>Uma das novelas da offseason da liga está em andamento no Philadelphia 76ers. O astro James Harden pediu para ser negociado pela franquia, mas uma troca pode demorar porque o mercado da NBA está lento. Lento para não dizer inexistente, na verdade. Segundo Chris Mannix, do site Sports Illustrated, a situação “arrastada” do armador reflete um cenário adverso e irreversível.
-        </p>
-        <a href="#">Ler mais</a>
-        <div class="Esportes">
-            <h2>Futebol: Estreia de Messi em Miami</h2>
-            <img src="./imagens/messi.jpg" width="500" height="300" alt="Messi">
-        </div>
-        <time>23/07/2023 ás 9:19</time>
-        <p>Lionel Messi estreou pelo Inter Miami na noite desta sexta-feira (21) da melhor maneira possível: marcando um golaço.</p>
-        <a href="#">Ler mais</a>    
-    </section>
-    <section id="Economia">
-        <div class="economia">
-            <h2>Economia: Calor extremo pode prejudicar economia global</h2>
-            <img src="./imagens/calor.jpg" width="500 height" alt="Termômetro">
-        </div>
-        <time>23/07/2023 ás 9:28</time>
-        <p>Altas temperaturas podem prejudicar a economia global segundo especialistas</p>
-        <a href="#">Ler mais</a>
-    </section>
-    <section id="Tecnologia">
-        <div class="Tecnologia">
-            <h2>Tecnolgia: Inteligência artificial</h2>
-            <img src="./imagens/intelingwencikna.jpeg" width="500" height="300" alt="Notebook">
-        </div>
-        <div class="Tecnologia">
-            <time>23/07/2023 ás 09:35</time>
-            <p>O mundo digital tem se tornado cada vez mais repleto de aplicações de Inteligência Artificial (IA). No coração desse cenário estão dois sistemas de IA proeminentes: Google Bard e ChatGPT, frutos do trabalho da Google e da OpenAI, respectivamente. O primeiro, recentemente lançado no Brasil, é uma notável plataforma conhecida por sua capacidade de interpretar e criar textos em uma variedade de idiomas. A tecnologia, movida pelo inovador sistema LaMDA, permite que o Google Bard forneça respostas detalhadas e contextualmente apropriadas às consultas do usuário.</p>
+    <div class="Esportes">
+    <h2>Esportes</h2>
+            <article>
+            <img src="./imagens/james harden.jfif" alt="James Harden">
+            <header>
+                <time>23/07/2023 ás 20:59</time>
+            </header>
+            <h3>“James Harden não tem mercado para troca na NBA”, crava jornalista</h3>
+            <p>Uma das novelas da offseason da liga está em andamento no Philadelphia 76ers. O astro James Harden pediu para ser negociado pela franquia, mas uma troca pode demorar porque o mercado da NBA está lento. Lento para não dizer inexistente, na verdade. Segundo Chris Mannix, do site Sports Illustrated, a situação “arrastada” do armador reflete um cenário adverso e irreversível.</p>
             <a href="#">Ler mais</a>
-        </div>
-    </section>
-    <section id="Entretenimento">
-        <div class="Entretenimento">
-            <h2>Entretenimento: Lançamento do Filme Oppenheimer</h2>
-            <img src="./imagens/oppenheimer.jpg" width="500" height="300" alt="Oppenheimer">
-        </div>    
-        <div class="Entretenimento">
-            <time>23/07/2023 ás 9:43</time>
-            <p>"Oppenheimer", um dos filmes mais aguardados do ano, estreou na quinta-feira (20) nos cinemas brasileiros. O longa-metragem dirigido por Christopher Nolan é baseado na biografia de J. Robert Oppenheimer, o "pai da bomba atômica"</p>    
+        </article>
+        <article>
+            <img src="./imagens/messi.jpg" alt="Messi">
+            <header>
+                <time>23/07/2023 ás 21:06</time>
+            </header>
+            <h3>Messi estreia em Miami</h3>
+            <p>Lionel Messi fez sua estreia em seu novo clube em Miami, com direito a golaço</p>
             <a href="#">Ler mais</a>
-        </div>           
-    </section>
+        </article>
+    </div>
+    <div class="Economia">
+        <h2>Economia</h2>
+        <article>
+            <img src="./imagens/calor.jpg" alt="Termômetro">
+            <header>
+                <time>23/07/2023 ás 21:10</time>
+            </header>
+            <h3>Altas temperaturas podem afetar economia global</h3>
+            <p>Segundo especialistas, as temperaturas elevadas tendem a impactar na economia mundial</p>
+            <a href="#">Ler mais</a>
+        </article>
+    </div>
+    <div class="Tecnologia">
+        <h2>Tecnologia</h2>
+        <article>
+            <img src="./imagens/intelingwencikna.jpeg" alt="Inteligencia artificial">
+            <header>
+                <time>23/07/2023 ás 21:14</time>
+            </header>    
+            <h3>Acordo de inteligência artificial</h3>
+            <p>O governo dos EUA fez um acordo sobre inteligências articiais</p>
+            <a href="#">Ler mais</a> 
+        </article>
+    </div>
+    <div class="Entretenimento">
+        <h2>Entretenimento</h2>
+        <article>
+            <img src="./imagens/oppenheimer.jpg" alt="Oppenheimer">
+            <header>
+                <time>23/07/2023 ás 21:14</time>
+            </header>
+            <h3>Oppenheimer nos cinemas</h3>
+            <p>O filme Oppenheimer, já está disponível nos cinemas, com um elenco de estrelas</p>
+            <a href="#">Ler mais</a>
+        </article>
+    </div>       
 </body>
 </html>
